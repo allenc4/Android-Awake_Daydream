@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/daydream_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.allenc.awakedaydream.Daydream">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:20 "
+        android:id="@+id/daydream_time"
+        android:textSize="92dp"
+        android:paddingRight="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#006688"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AM"
+        android:id="@+id/daydream_AM_PM"
+        android:textSize="36dp"
+        android:paddingBottom="5dp"
+        android:textColor="#006688"
+        android:layout_alignBottom="@+id/daydream_time"
+        android:layout_alignRight="@+id/daydream_time"
+        android:layout_alignEnd="@+id/daydream_time" />
+
+    <include
+        android:id="@+id/included_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/directions"
+        android:layout_below="@+id/daydream_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>

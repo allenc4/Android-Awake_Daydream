@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Awake Daydream</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_settings_activity.xml">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Example General settings -->
+    <string name="pref_header_general_title">General Settings</string>
+    <string name="pref_header_general_summary">General application preferences</string>
+
+    <string name="pref_header_detail_title">Detailed Settings</string>
+    <string name="pref_header_detail_summary">User-configurable detailed settings for the application</string>
+
+    <string name="pref_title_enable_application">Enable Application</string>
+    <string name="pref_description_enable_notification">Enables the touch input sensing to
+        bring this application to the front on device inactivity.
+    </string>
+    <string name="pref_app_exclusions_title">Exclude applications</string>
+    <string name="pref_app_exclusions_summary">Select any applications that you would like to
+        whitelist. This Daydream application will ignore any activity/inactivity when any of
+        the checked applications in this list are running in the foreground.</string>
+    <string-array name="pref_app_exclusions">
+        <!-- Initial empty array because the list will be populated at RUNTIME -->
+    </string-array>
+
+    <string name="pref_font_color_title">Font Color</string>
+
+    <string name="title_activity_com.allenc.awakedaydream._settings">Settings</string>
+</resources>

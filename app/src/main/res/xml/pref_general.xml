@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="key_application_enable"
+        android:summary="@string/pref_description_enable_notification"
+        android:title="@string/pref_title_enable_application" />
+
+    <com.allenc.awakedaydream.CustomMultiSelectListPreference
+        android:key="key_application_exclusions"
+        android:title="@string/pref_app_exclusions_title"
+        android:summary="@string/pref_app_exclusions_summary"
+        android:defaultValue="@array/pref_app_exclusions"/>
+
+</PreferenceScreen>

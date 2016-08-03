@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Show the color dialog picker to choose a font color-->
+    <Preference
+        android:title="@string/pref_font_color_title" >
+        <intent
+            android:action="com.allenc.awakedaydream.ColorPickerActivity" />
+    </Preference>
+
+</PreferenceScreen>

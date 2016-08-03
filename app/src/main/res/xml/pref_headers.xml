@@ -1,0 +1,11 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.allenc.awakedaydream.Settings$GeneralSettingsFragment"
+        android:title="@string/pref_header_general_title"
+        android:summary="@string/pref_header_general_summary" />
+
+    <header android:fragment="com.allenc.awakedaydream.Settings$DetailedSettingsFragment"
+        android:title="@string/pref_header_detail_title"
+        android:summary="@string/pref_header_detail_summary" />
+
+</preference-headers>
